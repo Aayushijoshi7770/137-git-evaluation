@@ -1,0 +1,63 @@
+<!DOCTYPE html>  
+<html>  
+<head>  
+<meta name="viewport" content="width=device-width, initial-scale=1">  
+<style>  
+body{  
+  font-family: Calibri, Helvetica, sans-serif;  
+}  
+.container {  
+    padding: 50px;  
+  background-color: lightblue;  
+  width:31%;
+  margin: 0 auto;
+  margin-top:50px;
+  border-radius:18px;
+}  
+  
+input[type=text], input[type=password], textarea {  
+  width: 100%;  
+  padding: 15px;  
+  margin: 5px 0 22px 0;  
+  display: inline-block;  
+  border: none;  
+  background: #f1f1f1;  
+}  
+input[type=text]:focus, input[type=password]:focus {  
+  outline: none;  
+}  
+ div {  
+     padding: 10px 0;  
+         }  
+hr {  
+  border: 1px solid #f1f1f1;  
+  margin-bottom: 25px;  
+}  
+.registerbtn {  
+  background-color: rgb(33, 171, 218);  
+  color: white;  
+  padding: 16px 20px;  
+  margin: 8px 0;  
+  border: none;  
+  cursor: pointer;    
+  opacity: 0.9; 
+  border-radius:8px; 
+}  
+.registerbtn:hover {  
+  opacity: 1;  
+}  
+</style>  
+</head>  
+<body>  
+<form>  
+  <div class="container">  
+  <center>  <h1>Login Page</h1> </center>  
+  <hr>  
+   <label for="email">Email</label>  
+    <input type="text" placeholder="Enter Email" name="email" required>  
+    <label for="psw">Password</label>  
+    <input type="password" placeholder="Enter Password" name="psw" required>   
+    <button type="submit" class="registerbtn">Login</button>    
+</form>  
+</body>  
+</html>  
